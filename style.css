@@ -46,6 +46,11 @@
    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
  } */
  
+
+ header {
+    background: rgb(145, 222, 245);
+  }
+
  .outer-container {
     background: rgb(235, 243, 213);
     width: 100%;
