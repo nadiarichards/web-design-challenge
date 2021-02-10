@@ -11,6 +11,9 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
+  
  @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap");
  :root {
    --blue: #007bff;
@@ -43,6 +46,19 @@
    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
  }
  
+ .outer-container {
+    background: rgb(230, 236, 236);
+    width: 100%;
+  }
+  .container {
+    background: rgb(208, 230, 238);
+  }
+  @media (max-width: 1200px) {
+    .container {
+      width: 75%;
+    }
+  }
+
  *,
  *::before,
  *::after {
