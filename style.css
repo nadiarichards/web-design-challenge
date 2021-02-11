@@ -98,7 +98,7 @@
   } */
   
   /* Selecting elements by ID */
-  #main-bio,
+  /* #main-bio,
   #contact-info,
   #front-page-image {
     float: left;
@@ -106,7 +106,14 @@
   
   #figure {
     position: relative;
+  } */
+
+  card-body {
+    float: left;
+    position: relative;
   }
+
+  .card-title
   
   /* #main-bio {
     width: 70%;
@@ -116,11 +123,12 @@
     width: 30%;
   } */
   
-  #front-page-image {
-    width: 250px;
-    height: 250px;
+  front-page-image {
+    width: 300px;
+    height: 300px;
     margin-right: 20px;
-  }
+    float: left;
+    }
 
 
  /* *,
