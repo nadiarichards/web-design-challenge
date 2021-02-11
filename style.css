@@ -1,4 +1,4 @@
-/*!
+!
  * Bootswatch v4.6.0
  * Homepage: https://bootswatch.com
  * Copyright 2012-2021 Thomas Park
@@ -14,7 +14,7 @@
 
 
   
- /* @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap");
  :root {
    --blue: #007bff;
    --indigo: #6610f2;
@@ -44,7 +44,7 @@
    --breakpoint-xl: 1200px;
    --font-family-sans-serif: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
- } */
+ }
  
 
  header {
@@ -672,7 +672,7 @@
    }
  }
  
- @media (min-width: 1200px) {
+@media (min-width: 1200px) {
    .container, .container-sm, .container-md, .container-lg, .container-xl {
      max-width: 1140px;
    }
@@ -10272,4 +10272,4 @@
  
  .card-title, .card-header {
    color: inherit;
- } */
+ }
