@@ -25,16 +25,28 @@ body {
 
 .navbar-custom {
   background-color: #fff;
-}
-
-.navbar-right-custom {
-  /* Box-model */
-  padding-top: 6px;
-  padding-right: 20px;
-  /* Typography */
+  float: left;
   font-family: Arial;
   font-weight: lighter;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: rgb(156, 151, 151);
 }
+
+/* .navbar-right-custom {
+  /* Box-model */
+  /* padding-top: 6px;
+  padding-right: 20px; */
+  /* Typography */
+  /* font-family: Arial;
+  font-weight: lighter; */
+/* } */
+
+.nav-item {
+  display: inline;
+  float: left;
+   }
 
 #logo {
   /* Box-model */
