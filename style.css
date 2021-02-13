@@ -25,14 +25,10 @@ body {
 
 .navbar-custom {
   background-color: #fff;
-  float: right;
   font-family: Arial;
   font-weight: lighter;
   padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  color: rgb(156, 151, 151);
-  display: inline;
+  /* font-size: 17px; */
 }
 
 /* .navbar-custom a:hover {
@@ -73,6 +69,11 @@ body {
 #logo:hover {
   /* Visual */
   opacity: 0.7;
+}
+
+.topnav-right {
+  float: right;
+  color: rgb(156, 151, 151);
 }
 
 @media only screen and (max-width: 767px) {
