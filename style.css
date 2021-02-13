@@ -25,13 +25,14 @@ body {
 
 .navbar-custom {
   background-color: #fff;
-  float: left;
+  float: right;
   font-family: Arial;
   font-weight: lighter;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   color: rgb(156, 151, 151);
+  display: inline;
 }
 
 /* .navbar-custom a:hover {
@@ -107,29 +108,29 @@ body {
 }
 /* ----DESCRIPTION END---- */
 /* ----IMAGE NAV START---- */
-  .imageNav-area {
+.imageNav-area {
   width: 100%;
   padding: 30px 30px 43px;
   margin-top: 32px;
   background-color: #fff;
 }
-  .imageNav-header {
+.imageNav-header {
   margin-bottom: 15px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 25px;
   font-weight: bold;
   color: #4AAAA5;
-  }
-  .imageNav-photo {
+}
+.imageNav-photo {
   width: 140px;
   height: 140px;
-  }
-  .imageNav-photo:hover {
+}
+.imageNav-photo:hover {
   opacity: 0.6;
-  }
-  .imageNav-photo.active {
+}
+.imageNav-photo.active {
   border: 2px solid #4AAAA5;
-  }
+}
 #images {
   /* Box-model */
   padding-top: 15px;
