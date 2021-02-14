@@ -3,6 +3,10 @@ html {
   min-height: 100%;
 }
 
+a {
+  color: #787b83;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -33,14 +37,14 @@ body {
   color: black;
 } */
 
-/* .navbar-right-custom {
+.navbar-right-custom {
   /* Box-model */
-  /* padding-top: 6px;
-  padding-right: 20px; */
+  padding-top: 6px;
+  padding-right: 20px;
   /* Typography */
-  /* font-family: Arial;
+  font-family: Arial;
   font-weight: lighter; */
-/* } */
+}
 
 /* .nav-item {
   display: inline;
@@ -68,13 +72,28 @@ body {
   opacity: 0.7;
 }
 
-.nav-right {
+/* .nav-right {
+  display: inline;
   float: right;
-  color: rgb(156, 151, 151);
-  font-family: Arial;
+  /* color: rgb(156, 151, 151); */
+  /* font-family: Arial;
   font-weight: lighter;
   padding: 14px 16px;
-}
+} */ *
+
+/* a {
+  color: rgb(156, 151, 151); */
+  /* display: inline;
+  float: right; */
+/* } */
+/* 
+.dropdown-menu{
+  float: right; */
+  /* color: rgb(156, 151, 151); */
+  /* font-family: Arial;
+  font-weight: lighter; */
+  /* padding: 14px 16px;
+} */
 
 @media only screen and (max-width: 767px) {
   .navbar-header {
@@ -238,9 +257,7 @@ h2 {
   font-size: 24px;
 }
 
-a {
-  color: #0c3fe7;
-}
+
 
 
 /* Nav element hover state */
@@ -259,10 +276,10 @@ a {
 
 /* .two-toned-footer-color {
   /* Box-model */
-  height: 6px;
-  padding-top: 3px;
+  /* height: 6px;
+  padding-top: 3px; */
   /* Visual */
-  background-color: #4AAAA5;
+  /* background-color: #4AAAA5;
 } */
 /* 
 card-body {
