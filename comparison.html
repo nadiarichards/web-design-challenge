@@ -3,84 +3,43 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Landing Page</title>
-     <link rel="stylesheet" href=  
-"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">  
-      
-    <script src=  
-"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">  
-    </script>  
-      
-    <script src=  
-"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">  
-    </script>  
-      
-    <script src=  
-"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">  
-    </script>  
-    <script src="extensions/export/bootstrap-table-export.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" media="screen">
+  
+  <link rel="stylesheet" href="style.css" media="screen">
 </head>
 
 <body>
-<header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-    <div class="container-fluid">
-      <a class="navbar-brand disabled">LATITUDE</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-      <ul class="navbar-nav">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Plots
-        </a>
-        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-          <li><a class="dropdown-item active" href="#">vs. Max Temp</a></li>
-          <li><a class="dropdown-item active" href="#">vs. Humidity</a></li>
-          <li><a class="dropdown-item active" href="#">vs. Cloudiness</a></li>
-          <li><a class="dropdown-item active" href="#">vs. Wind Speed</a></li>
-      </li>
-      </ul>
-      <a class="navbar-brand" href="html/comparison.html">Comparison</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="html/data.html">Data</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-          </li>
-        </ul>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid navbar-custom">
+      <div class="row">
+          <div class="navbar-header">
+            <div class="col-xs-9 phone-nav">
+              <a class="navbar-brand" id="logo" href="#latitude">Latitude</a>
+            </div>
+          </div>
+          <div class="nav-right">
+            <div class="navbar-nav">
+              <div class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="max_temp.html">vs. Max Temp</a></li>
+                  <li><a href="humidity.html">vs. Humidity</a></li>
+                  <li><a href="cloudiness.html">vs. Cloudiness</a></li>
+                  <li><a href="wind_speed.html">vs. Wind Speed</a></li>
+                </ul>  
+              </div>
+             <a href="comparison.html">Comparison</a>
+             <a href="data.html">Data</a>
+            </div>
+          </div>
+        <!-- </ul> -->
+        <!-- </div> -->
       </div>
     </div>
   </nav>
-</header>
-
-  <!-- <nav class="navbar-nav nav-pills mr-auto">
-    <li class="nav-item">
-     <a class="flex-sm-fill text-sm-center nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Plots</a>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">vs. Max Temp</a></li>
-      <li><a class="dropdown-item" href="#">vs. Humidity</a></li>
-      <li><a class="dropdown-item" href="#">vs. Cloudiness</a></li>
-      <li><a class="dropdown-item" href="#">vs. Wind Speed</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Separated link</a></li>
-    </ul>
-    </li>
-    <li class="nav-item">
-     <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Comparison</a>
-    </li>
-    <li class="nav-item">
-     <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Data</a>
-    </li>
-  </nav>
- -->
    
 <div class="outer-container">
   <div class="container">
