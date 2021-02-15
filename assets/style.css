@@ -224,6 +224,16 @@ body {
   margin-right: 20px;
 }
 
+#description-image-plot {
+  /* Positioning */
+  float: none;
+  /* Box-model */
+  width: 600px;
+  height: 400px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
 .footer {
   /* Positioning */
   position: absolute;
