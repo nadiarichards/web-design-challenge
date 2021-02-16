@@ -1,338 +1,126 @@
-html {
-  position: relative;
-  min-height: 100%;
+/* Body */
+body{
+    background-color: #EDEDED; 
+}
+/* Navbar */
+.navbar{
+    max-height: 57px; 
+}
+.navigation .navbar-brand{
+    color: white; 
+    margin-left: 30px; 
+    padding: inherit; 
+    font-weight: bold; 
+    background-color: #0BADA6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    background-color: white; 
+    font-size: 15px; 
+}
+.active, .dropdown-menu .dropdown-item:active a:hover{
+    background-color:#E7E7E7!important; 
+}
+.dropdown-item{
+    color: #6D8092 !important; 
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color:#E7E7E7 !important; 
+}
+a{
+    color: #6D8092;
+    font-size: 15px; 
+}
+.nav-link:hover{
+    background-color:#E7E7E7 !important;
+   }
+
+.navbar-brand:hover{
+color: rgb(175, 175, 175) !important;
+}
+/* Images */
+img{
+    width:100% !important;
+    height:100% !important;
+}
+.active, .panel:hover{
+    border-color:#0BADA6;
+    border-style: solid; 
+    
+}
+.vizualization{
+    width:50% !important;
+    height:50% !important;
 }
 
-a {
-  color: #787b83;
+/* Title Class  */
+.title{
+    color: #0BADA6;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+    padding-top: 25px; 
 }
-
-/* a {
-  color: rgb(156, 151, 151); */
-  /* display: inline;
-  float: right; */
-/* } */ *
-
-h2 {
-  font-size: 24px;
+/* Paragraph Element */
+p{
+ color: #6D8092;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 17px; 
 }
+/* Box Class */
+.box {
+    margin-top: 60px; 
+    margin-bottom: 62px; 
+    padding: 10px 20px 15px; 
+    color:black;
+    background-color: white; 
 
-
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 18px;
-  line-height: 150%;
-  color: #333;
-  background: #efeee7;
-  margin-bottom: 150px;
-  background-color: #ededed;
-}
-
-@media only screen and (max-width: 767px) {
-  /* Set background color to white on small screens */
-  body {
-    /* Visual */
-    background-color: #fff;
   }
+/* Table */
+  .table{
+    font-size: 15px; 
+    border-top-color: white !important; 
+}
+/* Footer */
+footer{
+background-color: #666666; 
+border-top-style: solid; 
+border-top-width: 5px; 
+border-top-color: #0BADA6;
+color: white; 
+min-height: 55px; 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px; 
+text-align: center; 
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+padding-top: 15px; 
+}
+/* Media Queries */
+@media(max-width: 992px){
+.navbar-expand-lg{
+background-color: #0BADA6 !important;
+}
+.navbar{
+    max-height: none; 
+    padding: inherit;
+}
+.navbar div{
+    margin: inherit; 
+    background-color: white;  
+}
+.navbar-brand{
+    padding: 10px !important; 
 }
 
-.navbar-custom {
-  background-color: #fff;
-  /* font-size: 17px; */
+button{
+    margin-right: 30px; 
 }
+button:focus {
 
-/* .navbar-custom a:hover {
-  background-color: #ddd;
-  color: black;
-} */
-
-.navbar-right-custom {
-  /* Box-model */
-  padding-top: 6px;
-  padding-right: 20px;
-  /* Typography */
-  font-family: Arial;
-  font-weight: lighter;
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focusring-color;
+    
+    }
 }
-
-/* .nav-item {
-  display: inline;
-  float: left;
-   } */
-
-#logo {
-  /* Box-model */
-  height: 60px;
-  padding-top: 20px;
-  padding-bottom: 5px;
-  /* Positioning */
-  margin-left: 70px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  /* Typography */
-  font-size: 24px;
-  font-weight: bold;
-  color: #fff;
-  /* Visual */
-  background: #4AAAA5;
-}
-/* Logo hover state */
-#logo:hover {
-  /* Visual */
-  opacity: 0.7;
-}
-
-/* .nav-right > a {
-  float: right;
-} */
-  /* color: rgb(156, 151, 151); */
-  /* font-family: Arial;
-  font-weight: lighter;
-  padding: 14px 16px;
-
-
-/* a {
-  color: rgb(156, 151, 151); */
-  /* display: inline;
-  float: right; */
-/* } */
-/* 
-.dropdown-menu{
-  float: right; */
-  /* color: rgb(156, 151, 151); */
-  /* font-family: Arial;
-  font-weight: lighter; */
-  /* padding: 14px 16px;
-} */
-
-@media only screen and (max-width: 767px) {
-  .navbar-header {
-    background-color: #4AAAA5;
-  }
-  #logo {
-    width: 100%;
-    /* Box-model */
-    height: 60px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    /* Positioning */
-    margin-left: 0;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    /* Typography */
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-    /* Visual */
-    background: #4AAAA5;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  /* override default class styling for positioning/padding */
-  .description-content {
-    /* Box-model */
-    padding: 0;
-    /* Positioning */
-    margin-top: 0;
-  }
-}
-/* ----DESCRIPTION END---- */
-/* ----IMAGE NAV START---- */
-.imageNav-area {
-  width: 100%;
-  padding: 30px 30px 43px;
-  margin-top: 32px;
-  background-color: #fff;
-}
-.imageNav-header {
-  margin-bottom: 33px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 25px;
-  font-weight: bold;
-  color: #4AAAA5;
-}
-.imageNav-photo {
-  width: 140px;
-  height: 140px;
-}
-.imageNav-photo:hover {
-  opacity: 0.6;
-}
-.imageNav-photo.active {
-  border: 2px solid #4AAAA5;
-}
-#images {
-  /* Box-model */
-  padding-top: 15px;
-  /* Typography */
-  text-align: center;
-}
-/* ----IMAGE NAV END---- */
-/* ----COMPARISON START---- */
-.comparison-image:hover {
-  opacity: 0.6;
-}
-.comparison-header {
-  /* Positioning */
-  margin-bottom: 10px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  /* Typography */
-  font-size: 20px;
-  font-weight: bold;
-  color: #4AAAA5;
-  text-align: center;
-}
-
-.description-header {
-  /* Positioning */
-  margin-bottom: 33px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  /* Typography */
-  font-size: 32px;
-  font-weight: bold;
-  color: #4AAAA5;
-}
-
-.description-small-header {
-  /* Positioning */
-  margin-bottom: 15px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  /* Typography */
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  color: #4AAAA5;
-}
-
-
-.description-content {
-  /* Box-model */
-  padding: 30px;
-  /* Positioning */
-  margin-top: 32px;
-  /* Visual */
-  background-color: #fff;
-}
-.description-content > p {
-  /* Box-model */
-  padding-top: 20px;
-  /* Typography */
-  font-size: 16px;
-  line-height: 30px;
-  color: slategray;
-}
-.description-text {
-  padding-bottom: 20px;
-}
-#description-image {
-  /* Positioning */
-  float: left;
-  /* Box-model */
-  width: 200px;
-  height: 200px;
-  margin-top: 20px;
-  margin-right: 20px;
-}
-
-#description-image-plot {
-  /* Positioning */
-  float: none;
-  /* Box-model */
-  width: 600px;
-  height: 400px;
-  margin-top: 20px;
-  margin-right: 20px;
-}
-
-.footer {
-  /* Positioning */
-  position: absolute;
-  bottom: 0;
-  /* Box-model */
-  width: 100%;
-  height: 60px;
-  margin-top: 30px;
-  /* Visual */
-  background-color: #666;
-}
-
-
-
-/* header {
-  background: rgb(248, 249, 250);;
-}
-
-.outer-container {
-  background: rgb(235, 243, 213);
-  width: 100%;
-}
-
-.container {
-  background: rgb(248, 249, 250);
-}
-
-@media (max-width: 1200px) {
-.container {
-    width: 70%;
-} 
-}
-
-h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: rgb(0, 0, 0);
-  text-align: center;
-}
-
-h2 {
-  font-size: 24px;
-}
-
-
-
-
-/* Nav element hover state */
-/* .navbar-default .navbar-nav > li > a:hover {
-  color: #4AAAA5;
-}
-
-
-
-.text-muted-footer {
-  /* Positioning */
-  /* margin-top: 15px;
-  /* Typography */
-  /* color: #fff;
-} */
-
-/* .two-toned-footer-color {
-  /* Box-model */
-  /* height: 6px;
-  padding-top: 3px; */
-  /* Visual */
-  /* background-color: #4AAAA5;
-} */
-/* 
-card-body {
-  float: left;
-  position: relative;
-}
-
-card-title {
-  font-size: 10px;
-  color: --success;
-}
-
-front-page-image {
-  width: 300px;
-  height: 300px;
-  margin-right: 20px;
-  float: left;
-} */
-
-/* h5, .h5 {
-  font-size: 1rem;
-}  */
