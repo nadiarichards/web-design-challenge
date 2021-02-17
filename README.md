@@ -4,13 +4,13 @@ A responsive website with 7 total pages has been created. Each page contains a h
 
 Please see the screenshots from the website below.
 
-# Large Screen Screenshots:
+### Large Screen Screenshots:
 
 ![front_page_large](https://github.com/nadiarichards/web-design-challenge/blob/main/site_screenshots/large_screen_front_page.png)
 
 ![comparison_page_large](https://github.com/nadiarichards/web-design-challenge/blob/main/site_screenshots/large_screen_comparison_page.png)
 
-# Small Screen Screenshots:
+### Small Screen Screenshots:
 
 ![front_page_small](https://github.com/nadiarichards/web-design-challenge/blob/main/site_screenshots/small_screen_front_page.png)
 
